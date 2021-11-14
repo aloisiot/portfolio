@@ -1,0 +1,28 @@
+@import '../../variables.scss';
+
+#header{
+    position: absolute;
+    width: 100%;
+    background: none;
+    z-index: 10;
+
+    #dropdown-menu{
+        right: 12px;
+        top: 12px;
+    }
+
+    .btn#contact-button{
+        color: $light-tipografy;
+        border: 2px solid $light-tipografy;
+    }
+
+    .nav-list li{
+        margin: 0 24px;
+        
+        a{
+            font-weight: 400;
+            color: $light-tipografy;
+            text-decoration: none;
+        }
+    }
+}

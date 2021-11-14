@@ -1,0 +1,61 @@
+@import '../../variables.scss';
+
+#banner{
+    position: relative;
+    height: 100vh;
+    background-color: $sec-bkg;
+    overflow: hidden;
+
+    #banner-content{
+
+        img#perfil{
+            height: 300px;
+            width: 300px;
+            border-radius: 100%;
+            margin: 32px;
+        }
+
+        h1{
+            color: $light-tipografy;
+            font-size: $main-title-size;
+            font-weight: 600;
+            margin-bottom: 18px;
+            
+            span{
+                font-size: 1.2rem;
+                font-weight: 400;    
+            }
+        }
+
+        #portfolio-button.btn{
+            color: $dark-blue-tipografy;
+            background-color: $prim-bkg;
+            border: 2px solid $light-tipografy;
+        }
+    }
+
+    #waves{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+
+        .wave{
+            position: absolute;
+            bottom: 0;
+            width: calc(100% + 50px);
+            animation: wave-motion 3s ease-in-out alternate infinite both;
+            
+            &.w1{animation-delay: 0s;}
+            &.w2{animation-delay: 1s;}
+            &.w3{animation-delay: 2s;}
+            &.w4{animation-delay: 3s;}
+        }
+    }
+}
+
+@keyframes wave-motion {
+    from{
+        transform: translate(-50px);
+    }
+}
