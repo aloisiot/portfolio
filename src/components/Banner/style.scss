@@ -33,6 +33,7 @@
             color: $deep-blue-tipografy;
             background-color: rgb(254, 254, 254, .85);
             border: 3px solid $light-tipografy;
+            width: 100%;
 
             &:hover{
             background-color: $light-bkg;
@@ -68,53 +69,37 @@
 
 @media (max-width: $bp-01) {
     #banner{
-        
-            #banner-content{
-
-            
-                img#perfil{
-                    height: 260px;
-                    width: 260px;
-                    margin-right: 12px;
-                }
-                
-                h1.title{
-                    font-size: 3.5rem;
-                }
-
-                a{
-                    width: 100%;
-                }
-
-                .btn#portfolio-button{
-                    width: 100%
-                }
+        #banner-content{
+            img#perfil{
+                height: 260px;
+                width: 260px;
+                margin-right: 12px;
             }
+            
+            h1.title{
+                font-size: 3.5rem;
+            }
+
+            a{
+                width: 100%;
+            }
+        }
     }
-   
 }
 
 @media (max-width: $bp-03) {
-
     #banner{
-        
         #banner-content{
-
             h1.title{
                 font-size: 2.5rem;
             }
         }
-}
-
+    }
 }
 
 @media (max-width: $bp-04) {
-
     #banner{
-        
         #banner-content{
-
-        
             img#perfil{
                 height: 200px;
                 width: 200px;
@@ -122,5 +107,4 @@
             }
         }
     }
-
 }
