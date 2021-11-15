@@ -1,15 +1,9 @@
 @import '../../variables.scss';
 
 #header{
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 10;
-
-    .content{
-        bottom: 0px;
-        width: 100%;
-        background-color: $deep-blue-bkg;
-    }
 
     #logo:hover{
         opacity: .9;
@@ -22,7 +16,7 @@
 
     .btn#contact-button{
         color: $light-tipografy;
-        border: 3px solid $light-tipografy;
+        border: 2px solid $light-tipografy;
 
         &:hover{
             background-color: #FEFEFE0F;
@@ -30,17 +24,16 @@
     }
 
     .nav-list li{
-        margin: 0 24px;
         
         a{
             font-weight: 500;
             color: $light-tipografy;
             text-decoration: none;
+            padding: 12px 24px;
             
             &:hover{
-                opacity: .8;
-                padding: 4px 0;
-                border-bottom: 2px solid $light-tipografy;
+                background-color: #FEFEFE0F;
+                border-radius: 22px;
             }
         }
     }

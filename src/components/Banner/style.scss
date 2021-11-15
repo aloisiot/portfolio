@@ -7,12 +7,14 @@
     overflow: hidden;
 
     #banner-content{
+        width: 1080px;
+        max-width: 80%;
 
         img#perfil{
             height: 300px;
             width: 300px;
             border-radius: 100%;
-            margin: 32px;
+            margin-right: 32px;
         }
 
         h1{

@@ -12,7 +12,7 @@ export default class banner extends Component {
 
         return(<>
             <div id="banner" className="d-flex justify-content-center align-items-center">
-                <div id="banner-content" className="d-flex">
+                <div id="banner-content" className="d-flex align-items-center justify-content-around flex-wrap">
                     <img id="perfil" src={perfil} alt="perfil" />
                     <div className="countainer">
                         <h1 className="title"><span>Olá, me chamo Aloísio!</span><br/>Desenvolvedor<br/>Web Full Stack</h1>
