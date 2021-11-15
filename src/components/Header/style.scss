@@ -1,17 +1,12 @@
-@import '../../variables.scss';
+@import '../../style/variables.scss';
 
 #header{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     z-index: 10;
 
     #logo:hover{
         opacity: .9;
-    }
-
-    #dropdown-menu{
-        right: 12px;
-        top: 12px;
     }
 
     .btn#contact-button{
@@ -37,4 +32,38 @@
             }
         }
     }
+}
+
+@media (max-width: $bp-02 ) {
+    #header{
+        display: none!important;
+    }
+
+    #banner #banner-content{
+        position: relative;
+        top: -18px;
+
+        img#perfil{
+            margin-bottom: 48px;
+        }
+    }
+
+}
+
+
+@media (max-height: 645px){
+    
+    #header{
+        display: none!important;
+    }
+
+    #banner #banner-content{
+        position: relative;
+        top: -18px;
+
+        img#perfil{
+            margin-bottom: 48px;
+        }
+    }
+
 }

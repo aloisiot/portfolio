@@ -1,0 +1,50 @@
+@import '../../style/variables.scss';
+
+#toggle-drop-down-menu.btn{
+    display: none;
+    position: fixed;
+    padding: 10px;
+    background-color: #526175de;
+    border-radius: 8px;
+    z-index: 10;
+    top: 24px;
+    right: 24px;
+}
+
+.dropdown-menu{
+    right: 24px;
+    position: fixed;
+    padding: 16px;
+
+    li a.dropdown-item{
+        font-size: 1.4rem;
+        font-weight: 500 !important;
+        color: $deep-blue-tipografy !important;
+    }
+}
+
+.dropdown-menu.is-visible{
+    display: block;
+    animation: showDropDownMenu .5s ease-out both;
+}
+
+@keyframes showDropDownMenu {
+    from{
+        top: -100%;
+    }
+    to {
+        top: 84px;
+    }
+}
+
+@media (max-width: $bp-02 ){
+    #toggle-drop-down-menu.btn{
+        display: block;
+    }
+}
+
+@media (max-height: 645px){
+    #toggle-drop-down-menu.btn{
+        display: block;
+    }
+}

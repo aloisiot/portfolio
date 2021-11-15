@@ -5,8 +5,9 @@
 $light-tipografy: #FEFEFE;
 $deep-blue-tipografy:  #001524e6;
 // size
-$main-title-size: 72px;
-$sec-title-size: 64px;
+$main-title-size: 4.5rem;
+$sec-title-size: 4rem;
+$body-font-size: 1.5rem;
 /* 
  *  Fill
  */
@@ -19,3 +20,11 @@ $light-gray-bkg: #EEEEEE;
  */
 $border-radius: 18px;
 $card-shadow: 0 0 30px #EEE;
+
+/* 
+ *  Brack Points
+ */
+$bp-01: 1070px;
+$bp-02: 775px;
+$bp-03: 700px;
+$bp-04: 374px;

@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import '../../style/variables.scss';
 
 #portfolio{
 
@@ -10,5 +10,9 @@
         list-style: none;
         margin: 0;
         padding: 0;
+
+        li{
+            max-width: 100%;
+        }
     }
 }

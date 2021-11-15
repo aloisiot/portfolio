@@ -1,7 +1,8 @@
-@import '../../variables.scss';
+@import '../../style/variables.scss';
 
 #skills{
     background-color: $light-gray-bkg;
+    overflow: hidden;
 
     &::before{
         content: " ";
@@ -31,30 +32,33 @@
     }
 
     .countainer{
-        margin: 0 10%;
+        width: 100%;
         max-width: 1080px;
 
-        img{margin-top: 48px;}
+        img{
+            margin-top: 24px;
+            width: 480px;
+        }
     }
 
     .countainer#back-end-skills{
-        img{margin-left: 48px;}
+        img{margin-left: 24px;}
     }
 
     .countainer#front-end-skills{
         margin-top: 120px;
 
-        img{margin-right: 48px;}
+        img{margin-right: 24px;}
     }
 
     .skill{
-        min-width: 480px;
         max-width: 540px;
     }
 
     li{
-        font-size: 24px;
+        font-size: $body-font-size;
         margin-bottom: 16px;
+        max-width: 100%;
     }
 
     #outher-skills{
@@ -70,4 +74,28 @@
             content: url('../../assets/svg/icons/arrow.svg');
         }
     }
+}
+
+@media (max-width: $bp-01) {
+
+    #skills{
+
+        h2.title{
+            font-size: 2.4rem;
+        }
+
+        .countainer{
+            max-width: 80%;
+        }
+
+        h3.title{
+            font-size: 1.4rem;
+        }
+
+        p, li{
+            font-size: 1rem;
+        }
+    }
+
+
 }

@@ -1,9 +1,5 @@
 @import './variables.scss';
 
-.App{
-  overflow: hidden;
-}
-
 .nav-list{
     list-style: none;
     margin: 0;
@@ -27,7 +23,15 @@
   .title{
     font-weight: bold;
   }
+
+  .ilustration{
+    max-width: 100%;
+  }
   
+  a{
+    text-decoration: none;
+  }
+
   h2{
     font-size: $sec-title-size;
     margin-bottom: 80px;
@@ -39,9 +43,26 @@
   }
   
   p{
-    font-size: 24px;
+    font-size: $body-font-size;
   }
   
   section{
     margin: 120px 0;
   }
+
+@media (max-width: $bp-01) {
+  h2{
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+  }
+  
+  h3{
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+  }
+  
+  p, li{
+    font-size: 1rem;
+  }
+  
+}

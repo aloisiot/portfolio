@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import '../../style/variables.scss';
 
 #about-me{
 
@@ -8,6 +8,10 @@
 
     p{
         width: 800px;
+        max-width: 80%;
+    }
+
+    img{
         max-width: 80%;
     }
 }

@@ -1,4 +1,4 @@
-@import '../../../variables.scss';
+@import '../../../style/variables.scss';
 
 div.project-card{
     padding: 24px;
@@ -18,7 +18,8 @@ div.project-card{
         margin-bottom: 30px;
 
         img{
-            height: 100%;
+            max-width: 100%;
+            max-height: 100%;
         }
     }
     
