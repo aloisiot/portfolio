@@ -3,7 +3,7 @@
 #banner{
     position: relative;
     height: 100vh;
-    background-color: $sec-bkg;
+    background-color: $deep-blue-bkg;
     overflow: hidden;
 
     #banner-content{
@@ -27,24 +27,28 @@
             }
         }
 
-        #portfolio-button.btn{
-            color: $dark-blue-tipografy;
-            background-color: $prim-bkg;
-            border: 2px solid $light-tipografy;
+        .btn#portfolio-button{
+            color: $deep-blue-tipografy;
+            background-color: rgb(254, 254, 254, .85);
+            border: 3px solid $light-tipografy;
+
+            &:hover{
+            background-color: $light-bkg;
+            }
         }
     }
 
     #waves{
         position: absolute;
-        bottom: 0px;
+        bottom: -3px;
         left: 0px;
         width: 100%;
 
         .wave{
             position: absolute;
             bottom: 0;
-            width: calc(100% + 50px);
-            animation: wave-motion 3s ease-in-out alternate infinite both;
+            width: calc(100% + 80px);
+            animation: wave-motion 3.5s ease-in-out alternate infinite both;
             
             &.w1{animation-delay: 0s;}
             &.w2{animation-delay: 1s;}
@@ -56,6 +60,6 @@
 
 @keyframes wave-motion {
     from{
-        transform: translate(-50px);
+        transform: translate(-80px);
     }
 }

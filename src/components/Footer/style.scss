@@ -1,0 +1,32 @@
+@import '../../variables.scss';
+
+#footer{
+    background-color: $light-gray-bkg;
+    padding: 12px 5%;
+
+    #contact{
+        padding: 30px;
+
+        span{
+            font-weight: bold;
+            font-size: 18px;
+        }
+    
+        a{
+            margin: 12px 12px;
+            color: $deep-blue-tipografy;
+            font-weight: 600;
+        }
+
+    
+    }
+    
+    #copyright{
+        text-align: center;
+        font-size: 16px;
+        font-weight:600;
+        padding-top: 16px;
+        width: 100%;
+        border-top: 1px solid $deep-blue-tipografy;
+    }    
+}

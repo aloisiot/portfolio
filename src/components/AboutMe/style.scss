@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+
+#about-me{
+
+    h2.sec-title{
+        color: $deep-blue-tipografy;
+    }
+
+    p{
+        width: 800px;
+        max-width: 80%;
+    }
+}

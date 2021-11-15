@@ -1,8 +1,21 @@
-// Tipografy
-$light-tipografy: #fefefe;
-$dark-blue-tipografy:  #001524e6;
+/* 
+ *  Tipografy
+ */
+// Color
+$light-tipografy: #FEFEFE;
+$deep-blue-tipografy:  #001524e6;
+// size
 $main-title-size: 72px;
+$sec-title-size: 64px;
+/* 
+ *  Fill
+ */
+$light-bkg: #FEFEFE;
+$deep-blue-bkg: #2D4059;
+$light-gray-bkg: #EEEEEE;
 
-// Fill
-$prim-bkg: #fefefe;
-$sec-bkg: #2D4059;
+/* 
+ *  Structure
+ */
+$border-radius: 18px;
+$card-shadow: 0 0 30px #EEE;

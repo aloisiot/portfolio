@@ -1,0 +1,73 @@
+@import '../../variables.scss';
+
+#skills{
+    background-color: $light-gray-bkg;
+
+    &::before{
+        content: " ";
+        position: relative;
+        top: -5px;
+        background-image: url('../../assets/svg/others/wavy-contour.svg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 70px;
+        width: 100%;
+    }
+
+    &::after{
+        content: " ";
+        position: relative;
+        bottom: -5px;
+        background-image: url('../../assets/svg/others/wavy-contour.svg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 70px;
+        width: 100%;
+        transform: rotate(180deg);
+    }
+
+    h2.title{
+        margin-top: 56px;
+    }
+
+    .countainer{
+        margin: 0 10%;
+        max-width: 1080px;
+
+        img{margin-top: 48px;}
+    }
+
+    .countainer#back-end-skills{
+        img{margin-left: 48px;}
+    }
+
+    .countainer#front-end-skills{
+        margin-top: 120px;
+
+        img{margin-right: 48px;}
+    }
+
+    .skill{
+        min-width: 480px;
+        max-width: 540px;
+    }
+
+    li{
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    #outher-skills{
+        position: relative;
+        width: 720px;
+        max-width: 75%;
+        margin: 80px 0;
+        font-size: 18px;
+
+        &::before{
+            position: absolute;
+            left: -36px;
+            content: url('../../assets/svg/icons/arrow.svg');
+        }
+    }
+}
