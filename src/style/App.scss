@@ -50,6 +50,10 @@
     margin: 120px 0;
   }
 
+  img{
+    pointer-events: none;
+  }
+
 @media (max-width: $bp-01) {
   h2{
     font-size: 2.4rem;

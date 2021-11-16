@@ -10,11 +10,11 @@ const Skills = () => {
             <h2 className="title">Competências</h2>
             <div id="back-end-skills" className="d-flex flex-wrap align-items-center justify-content-center countainer">
                 <BackEndSkills/>
-                <img className="ilustration" src={backEnderIlustration} alt="Ilustração 'Back Ender'" />
+                <img className="ilustration" src={backEnderIlustration} alt="Ilustração 'Back End Developer'" />
             </div>
             <div id="front-end-skills" className="d-flex flex-row-reverse flex-wrap align-items-center justify-content-center countainer">
                 <FrontEndSkills/>
-                <img className="ilustration" src={designerIustration} alt="Ilustração 'Back Ender'" />
+                <img className="ilustration" src={designerIustration} alt="Ilustração 'Front End Developer'" />
             </div>
             <p id="outher-skills">Dentre outras competências estão: Linux (Ubuntu, Debian), virtualização (Doker, Vagrant) infraestrutura e redes.</p>
         </section>
