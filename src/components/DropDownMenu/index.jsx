@@ -8,7 +8,7 @@ const DropDownMenu = () => {
 
     return(
     <>
-        <button onClick={()=> setIsVisible(!isVisible)} id="toggle-drop-down-menu" className="btn"> { isVisible ? <CloseBusson/> : <MenuButton/> } </button>
+        <button onClick={()=> setIsVisible(!isVisible)} id="toggle-drop-down-menu" className="btn shadow"> { isVisible ? <CloseBusson/> : <MenuButton/> } </button>
         <ul className={`dropdown-menu dropdown-menu-macos mx-0 border-0 shadow ${ isVisible ? " is-visible ": ""}`}>
             <li onClick={()=> setIsVisible(false)} ><a className="dropdown-item" href="#about-me">Sobre mim</a></li>
             <li onClick={()=> setIsVisible(false)} ><a className="dropdown-item" href="#skills">Competências</a></li>

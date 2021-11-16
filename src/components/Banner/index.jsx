@@ -10,7 +10,7 @@ const Banner = () => {
     return(
         <div id="banner" className="d-flex justify-content-center align-items-center">
             <div id="banner-content" className="d-flex align-items-center justify-content-around flex-wrap">
-                <img id="perfil" src={perfil} alt="perfil" />
+                <img id="perfil" src={perfil} alt="perfil" className="shadow"/>
                 <div className="countainer">
                     <h1 className="title"><span>Olá, me chamo Aloísio!</span><br/>Desenvolvedor<br/>Web Full Stack</h1>
                     <a href="#portfolio"><button id="portfolio-button" className="btn">Veja meu portfólio</button></a>
