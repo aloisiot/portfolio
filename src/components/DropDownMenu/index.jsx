@@ -1,6 +1,6 @@
 import React, {  useState } from 'react';
 import {ReactComponent as MenuButton} from '../../assets/svg/icons/menu-icon.svg'
-import {ReactComponent as CloseBusson} from '../../assets/svg/icons/close-button.svg'
+import {ReactComponent as CloseButton} from '../../assets/svg/icons/close-button.svg'
 import './style.scss';
 
 const DropDownMenu = () => {
@@ -8,7 +8,7 @@ const DropDownMenu = () => {
 
     return(
     <>
-        <button onClick={()=> setIsVisible(!isVisible)} id="toggle-drop-down-menu" className="btn shadow"> { isVisible ? <CloseBusson/> : <MenuButton/> } </button>
+        <button onClick={()=> setIsVisible(!isVisible)} id="toggle-drop-down-menu" className="btn shadow"> { isVisible ? <CloseButton/> : <MenuButton/> } </button>
         <ul className={`dropdown-menu dropdown-menu-macos mx-0 border-0 shadow ${ isVisible ? " is-visible ": ""}`}>
             <li onClick={()=> setIsVisible(false)} ><a className="dropdown-item" href="#about-me">Sobre mim</a></li>
             <li onClick={()=> setIsVisible(false)} ><a className="dropdown-item" href="#skills">Competências</a></li>
