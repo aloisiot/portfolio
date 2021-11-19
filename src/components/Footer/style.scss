@@ -16,6 +16,10 @@
             margin: 12px 12px;
             color: $deep-blue-tipografy;
             font-weight: 600;
+
+            &.link-email:hover{
+                text-decoration: underline;
+            }
         }
 
     
