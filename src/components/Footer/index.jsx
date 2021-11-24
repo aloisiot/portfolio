@@ -8,7 +8,7 @@ const Footer = () => {
         <footer id="footer" className="d-flex flex-column align-items-center">
             <div id="contact" className="d-flex flex-column align-items-center">
                 <span>Onde me encontrar:</span>
-                <a className="link-email" href="mailto:aloisiot.c98@gmail.com">aloisiot.c98@gmail.com</a>
+                <a className="link-email" href="mailto:contato@aloisiot.dev">contato@aloisiot.dev</a>
                 <div>
                     <a className="social-media" href="https://www.linkedin.com/in/aloisio-carvalho-475a6820b/" target="_blank" rel="noreferrer"><LinkedinIcon/></a>
                     <a className="social-media" href="https://github.com/aloisiot/" target="_blank" rel="noreferrer"><GithubIcon/></a>
