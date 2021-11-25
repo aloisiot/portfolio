@@ -12,12 +12,14 @@ function App() {
   return (
     <div className="App">
       <DropDownMenu/>
-      <Header/>
-      <Banner/>
-      <AboutMe/>
-      <Skills/>
-      <Portfolio/>
-      <Footer/>
+      <main>
+        <Header/>
+        <Banner/>
+        <AboutMe/>
+        <Skills/>
+        <Portfolio/>
+        <Footer/>
+      </main>
     </div>
   );
 }
